@@ -44,30 +44,30 @@ Table of Contents
   <br> Cleaning up messy data is never a joy, but with pandas it's easier.
 * [Chapter 8: Parsing Unix timestamps](http://nbviewer.ipython.org/github/jvns/pandas-cookbook/blob/master/cookbook/Chapter%208%20-%20How%20to%20deal%20with%20timestamps.ipynb)
   <br> Parsing Unix timestamps is confusing at first but it turns out to be really easy.
-* Chapter 9: ???
+* [Chapter 9 - Loading data from SQL databases](http://nbviewer.ipython.org/github/jvns/pandas-cookbook/blob/master/cookbook/Chapter%209%20-%20Loading%20data%20from%20SQL%20databases.ipynb)
+  <br> How to load data from an SQL database into Pandas, with examples using SQLite3, PostgreSQL, and MySQL.
 
 Installation
 ============
 
-You'll need an up-to-date version of IPython Notebook (>= 1.0) and
-pandas (>=0.12) for this to work properly
+You'll need an up-to-date version of IPython Notebook (>= 3.0) and
+pandas (>=0.13) for this to work properly. It's set up to work with Python 2.7.
 
 You can get these using `pip`:
 
 ```
-pip install ipython pandas numpy
+pip install -r requirements.txt
 ```
 
 Alternatively, I use and recommend
-[Anaconda](https://store.continuum.io/), which will give you everything
-you need. It's free and open source.
+[Anaconda](https://store.continuum.io/), which is a Python distribution which will give you everything you need. It's free and open source.
 
 Once you have pandas and IPython, you can get going!
 
 ```
 git clone https://github.com/jvns/pandas-cookbook.git
 cd pandas-cookbook/cookbook
-ipython notebook --pylab inline
+ipython notebook 
 ```
 
 A tab should open up in your browser at `http://localhost:8888`
