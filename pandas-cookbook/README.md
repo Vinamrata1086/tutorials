@@ -10,7 +10,7 @@ getting started with pandas. The [docs](http://pandas.pydata.org/pandas-docs/sta
 are really comprehensive. However, I've often had people 
 tell me that they have some trouble getting started, so these are
 examples with real-world data, and all the bugs and weirdness
-that that entails.
+that entails.
 
 I'm working with 3 datasets right now
 
@@ -41,9 +41,9 @@ Table of Contents
 * [Chapter 6: String operations! Which month was the snowiest?](http://nbviewer.ipython.org/github/jvns/pandas-cookbook/blob/master/cookbook/Chapter%206%20-%20String%20operations%21%20Which%20month%20was%20the%20snowiest%3F.ipynb)
   <br> Strings with pandas are great. It has all these vectorized string operations and they're the best. We will turn a bunch of strings containing "Snow" into vectors of numbers in a trice.
 * [Chapter 7: Cleaning up messy data](http://nbviewer.ipython.org/github/jvns/pandas-cookbook/blob/master/cookbook/Chapter%207%20-%20Cleaning%20up%20messy%20data.ipynb)
-  <br> Cleaning up messy data is never a joy, but with pandas it's easier <3
+  <br> Cleaning up messy data is never a joy, but with pandas it's easier.
 * [Chapter 8: Parsing Unix timestamps](http://nbviewer.ipython.org/github/jvns/pandas-cookbook/blob/master/cookbook/Chapter%208%20-%20How%20to%20deal%20with%20timestamps.ipynb)
-  <br> This is basically a quick trick that took me 2 days to figure out.
+  <br> Parsing Unix timestamps is confusing at first but it turns out to be really easy.
 * Chapter 9: ???
 
 Installation
